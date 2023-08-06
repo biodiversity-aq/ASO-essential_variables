@@ -1,0 +1,1 @@
+# SO-essential_variables
