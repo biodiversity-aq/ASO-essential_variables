@@ -1,14 +1,16 @@
 # ASO-essential_variables
 
+This repository provides an overview of Essential Variables relevant to the Southern Ocean, with a primary focus on biologically relevant variables. It includes a range of variable types such as Essential Ocean Variables (EOVs), Essential Biodiversity Variables (EBVs), and others.
 
-Overview of Essential Variables relevant for the Southern Ocean.
+📄 Documentation
+- Detailed descriptions of variables are available in the [Wiki](https://github.com/biodiversity-aq/SO-essential_variables/wiki).
 
-The focus is on Biologically relevant variables but includes other types (EOVs, ECVs,...) as well.
+- A curated Zotero group library with relevant literature can be found [here](https://www.zotero.org/groups/5073939/essential_variablessouthernocean).
 
-Click [here](https://github.com/biodiversity-aq/SO-essential_variables/wiki) to go to the descriptions.
+📝 Reports
 
-For an overview of relevant literature, a Zotero group library is available [here](https://www.zotero.org/groups/5073939/essential_variablessouthernocean).
+Two complementary reports are available:
 
+- One focusing on [marine essential variables](https://zenodo.org/records/15799169). 🌊
 
-
-
+- Another addressing [terrestrial essential variables](https://zenodo.org/records/13730496). 🏔️
