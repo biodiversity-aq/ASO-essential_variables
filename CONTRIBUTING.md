@@ -18,7 +18,7 @@ Thank you for your interest in contributing to this community-led effort!
 
 ### Suggest a change or new variable
 - Navigate to the [Issues tab](../../issues)
-- Open a **New issue** using the template `🧩 Suggest a New or updated variable`
+- Open a **New issue** using the template `🧩 Suggest a new or updated variable`
 - Include as much detail as possible:
   - Variable name
   - Rationale for inclusion or revision
