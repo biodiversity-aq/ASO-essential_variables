@@ -15,6 +15,6 @@ While each domain defines its own set of variables, many are **interlinked and c
 ## Documentation and reports
 - Detailed **descriptions of variables** are available in the [Wiki](https://github.com/biodiversity-aq/SO-essential_variables/wiki).
 - Two complementary **reports** are available:
-  - One focusing on [marine essential variables](https://zenodo.org/records/15799169). 🌊
-  - Another addressing [terrestrial essential variables](https://zenodo.org/records/13730496). 🏔️
+  - One focusing on [marine essential variables](https://zenodo.org/records/13730496). 🌊
+  - Another addressing [terrestrial essential variables](https://zenodo.org/records/15799169). 🏔️
 - A growing Zotero group library with relevant literature can be found [here](https://www.zotero.org/groups/5073939/essential_variablessouthernocean).
