@@ -18,3 +18,9 @@ While each domain defines its own set of variables, many are **interlinked and c
   - One focusing on [marine essential variables](https://zenodo.org/records/13730496). 🌊
   - Another addressing [terrestrial essential variables](https://zenodo.org/records/15799169). 🏔️
 - A growing Zotero group library with relevant literature can be found [here](https://www.zotero.org/groups/5073939/essential_variablessouthernocean).
+
+## Contributing to the Southern Ocean, Antarctic and Sub-Antarctic Essential Variables Wiki
+
+This repository aims to document, refine, and evolve the list of **EVs** for observing and understanding **Southern Ocean, Antarctic and Sub-Antarctic ecosystems**.
+
+We welcome suggestions, corrections, new variable proposals, and broader feedback from all—scientists, data managers, policy experts, and community stakeholders. Click [here](https://github.com/biodiversity-aq/SO-essential_variables/CONTRIBUTING.md) for more.
