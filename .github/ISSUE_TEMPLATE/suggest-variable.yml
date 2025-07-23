@@ -1,0 +1,248 @@
+name: 🧩 Suggest a New or Updated Variable
+description: Propose a new Essential Variable or suggest improvements to an existing one.
+title: "[EV Suggestion]: "
+labels: ["suggestion", "essential-variable"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to improving the Essential Variables framework for Southern Ocean, Antarctic, and Sub-Antarctic ecosystems.  
+        Please fill out the fields below as completely as possible.
+
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: 🛠 Proposed Change
+      options:
+        - Add new variable
+        - Revise existing variable
+        - Suggest deletion
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: variable-name
+    attributes:
+      label: 📌 Variable Name
+      placeholder: e.g., Zooplankton Biomass
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ev-framework
+    attributes:
+      label: 🔍 Framework
+      description: Select one or both frameworks that this variable aligns with.
+      options:
+        - EBV
+        - EOV
+        - Both
+    validations:
+      required: true
+
+  - type: textarea
+    id: framework-rationale
+    attributes:
+      label: 🌐 Framework Rationale (if both EBV & EOV selected)
+      description: If you selected "Both", please explain how this variable aligns with each framework.
+      placeholder: e.g., This variable supports species distribution (EBV) and ecosystem functioning (EOV) via spatial productivity patterns.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: ev-class
+    attributes:
+      label: 📚 EBV Class (if applicable)
+      options:
+        - Genetic composition
+        - Species populations
+        - Species traits
+        - Community composition
+        - Ecosystem structure
+        - Ecosystem functioning
+        - Not applicable
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ev-name
+    attributes:
+      label: 🏷️ EBV Variable Name (if applicable)
+      options:
+        - Genetic diversity (richness and heterozygosity)
+        - Genetic differentiation (number of genetic units and genetic distance)
+        - Effective population size
+        - Inbreeding
+        - Species distributions
+        - Species abundances
+        - Morphology
+        - Physiology
+        - Phenology
+        - Movement
+        - Reproduction
+        - Community abundance
+        - Taxonomic/phylogenetic diversity
+        - Trait diversity
+        - Interaction diversity
+        - Primary productivity
+        - Ecosystem phenology
+        - Ecosystem disturbances
+        - Live cover fraction
+        - Ecosystem distribution
+        - Ecosystem Vertical Profile
+        - Not applicable
+    validations:
+      required: true
+
+  - type: dropdown
+    id: eov-panel
+    attributes:
+      label: 🔬 EOV Panel (if applicable)
+      options:
+        - Physics
+        - Biogeochemistry
+        - Biology and Ecosystems
+        - Not applicable
+    validations:
+      required: true
+
+   - type: dropdown
+    id: eov-panel
+    attributes:
+      label: 🔬 EOV Panel (if applicable)
+      options:
+        - Sea state
+        - Ocean surface stress
+        - Sea ice
+        - Sea surface height
+        - Sea surface temperature
+        - Subsurface temperature
+        - Surface currents
+        - Subsurface currents
+        - Sea surface salinity
+        - Subsurface salinity
+        - Ocean surface heat flux
+        - Ocean bottom pressure
+        - Turbulent diapycnal fluxes (*pilot)
+        - Oxygen
+        - Nutrients
+        - Inorganic carbon
+        - Transient tracers
+        - Particulate matter
+        - Nitrous oxide
+        - Stable carbon isotopes
+        - Dissolved organic carbon	Phytoplankton biomass and diversity
+        - Zooplankton biomass and diversity
+        - Fish abundance and distribution
+        - Sea turtles abundance and distribution
+        - Seabirds abundance and distribution
+        - Marine mammal abundance and distribution
+        - Coral cover and composition
+        - Seagrass cover and composition
+        - Macroalgal canopy cover and composition
+        - Mangrove cover and composition
+        - Microbe biomass and diversity (*pilot)
+        - Benthic invertebrate abundance and distribution (*pilot)
+        - Ocean colour
+        - Marine debris (*pilot)	
+        - Ocean sound
+    validations:
+      required: true
+
+  - type: input
+    id: realm
+    attributes:
+      label: 🌍 Realm
+      placeholder: e.g., Marine, Terrestrial, Freshwater
+    validations:
+      required: true
+
+  - type: textarea
+    id: definition
+    attributes:
+      label: 🧾 Definition
+      placeholder: Define what this variable measures or represents.
+    validations:
+      required: true
+
+  - type: input
+    id: step
+    attributes:
+      label: 🔄 Step in Identification Process
+      placeholder: e.g., Pre-workshop, Breakout group, Final consensus
+    validations:
+      required: false
+
+  - type: input
+    id: metric
+    attributes:
+      label: 📐 Metric
+      placeholder: e.g., Count, density, extent
+    validations:
+      required: false
+
+  - type: input
+    id: spatial-res
+    attributes:
+      label: 📍 Spatial Resolution Unit
+      placeholder: e.g., km², grid cell, site
+    validations:
+      required: false
+
+  - type: input
+    id: temporal-res
+    attributes:
+      label: ⏱ Temporal Resolution Unit
+      placeholder: e.g., Seasonal, Annual, Daily
+    validations:
+      required: false
+
+  - type: input
+    id: taxon
+    attributes:
+      label: 🧬 Taxonomic or Ecosystem Focus Group
+      placeholder: e.g., Krill, Mesopelagic fish, Seabirds
+    validations:
+      required: true
+
+  - type: textarea
+    id: ev-relevance
+    attributes:
+      label: 📈 EV Relevance
+      placeholder: Why is this variable important for monitoring, ecosystem understanding, or policy?
+    validations:
+      required: true
+
+  - type: textarea
+    id: data-required
+    attributes:
+      label: 📊 Data Required
+      placeholder: What types of data are needed to monitor this variable?
+    validations:
+      required: false
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: 🔗 Possible Data Sources and Resources
+      placeholder: e.g., biodiversity.aq, OBIS, SCAR databases, satellite datasets, publications
+    validations:
+      required: false
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: 💬 Overall Rationale
+      description: Why should this variable be added or changed?
+      placeholder: Explain the gap this variable fills or the improvement it provides.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 🧩 Additional Notes or Context (optional)
+      placeholder: Add any other relevant information or suggestions here.
