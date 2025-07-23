@@ -10,7 +10,6 @@ Thank you for your interest in contributing to this community-led effort!
 - ✏️ **Suggest an edit or deletion** of an existing EV
 - 📚 **Improve definitions, metadata, or references**
 - 🌐 **Add links to standards, data sources, or relevant projects**
-- 💬 **Join the conversation** in GitHub Discussions or Issues
 
 ---
 
@@ -24,5 +23,3 @@ Thank you for your interest in contributing to this community-led effort!
   - Rationale for inclusion or revision
   - Relation to EOVs/EBVs if applicable
   - References (papers, standards, reports)
-
-Alternatively, use [GitHub Discussions](../../discussions) for open-ended input and brainstorming.
