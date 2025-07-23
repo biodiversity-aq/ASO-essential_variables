@@ -109,7 +109,7 @@ body:
     validations:
       required: true
 
-    - type: dropdown
+  - type: dropdown
     id: eov-name
     attributes:
       label: "🏷️ EOV Variable Name (if applicable)"
@@ -159,7 +159,7 @@ body:
     attributes:
       label: "🌍 Realm"
       options:
-        -Marine
+        - Marine
         - Terrestrial
         - Freshwater
     validations:
