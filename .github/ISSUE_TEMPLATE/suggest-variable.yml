@@ -109,7 +109,7 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+    - type: dropdown
     id: eov-name
     attributes:
       label: "🏷️ EOV Variable Name (if applicable)"
@@ -134,7 +134,7 @@ body:
         - Particulate matter
         - Nitrous oxide
         - Stable carbon isotopes
-        - Dissolved organic carbon	
+        - Dissolved organic carbon
         - Phytoplankton biomass and diversity
         - Zooplankton biomass and diversity
         - Fish abundance and distribution
@@ -148,11 +148,12 @@ body:
         - Microbe biomass and diversity (*pilot)
         - Benthic invertebrate abundance and distribution (*pilot)
         - Ocean colour
-        - Marine debris (*pilot)	
+        - Marine debris (*pilot)
         - Ocean sound
         - Not applicable
     validations:
       required: true
+
 
   - type: dropdown
     id: realm
