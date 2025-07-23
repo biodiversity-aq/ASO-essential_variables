@@ -14,7 +14,7 @@ body:
   - type: dropdown
     id: change-type
     attributes:
-      label: 🛠 Proposed change
+      label: "🛠 Proposed change"
       options:
         - Add new variable
         - Revise existing variable
@@ -26,16 +26,16 @@ body:
   - type: input
     id: variable-name
     attributes:
-      label: 📌 Variable name
-      placeholder: e.g., Zooplankton Biomass
+      label: "📌 Variable name"
+      placeholder: "e.g., Zooplankton Biomass"
     validations:
       required: true
 
   - type: dropdown
     id: ev-framework
     attributes:
-      label: 🔍 Framework
-      description: Select one or both frameworks that this variable aligns with.
+      label: "🔍 Framework"
+      description: "Select one or both frameworks that this variable aligns with."
       options:
         - EBV
         - EOV
@@ -46,16 +46,16 @@ body:
   - type: textarea
     id: framework-rationale
     attributes:
-      label: 🌐 Framework rationale (if "Both" selected)
-      description: If you selected "Both", please explain how this variable aligns with each framework.
-      placeholder: e.g., This variable supports species distribution (EBV) and ecosystem functioning (EOV) via spatial productivity patterns.
+      label: "🌐 Framework rationale (if \"Both\" selected)"
+      description: "If you selected \"Both\", please explain how this variable aligns with each framework."
+      placeholder: "e.g., This variable supports species distribution (EBV) and ecosystem functioning (EOV) via spatial productivity patterns."
     validations:
       required: false
 
   - type: dropdown
     id: ev-class
     attributes:
-      label: 📚 EBV Class (if applicable)
+      label: "📚 EBV Class (if applicable)"
       options:
         - Genetic composition
         - Species populations
@@ -68,9 +68,9 @@ body:
       required: true
 
   - type: dropdown
-    id: ev-name
+    id: ebv-name
     attributes:
-      label: 🏷️ EBV Variable Name (if applicable)
+      label: "🏷️ EBV Variable Name (if applicable)"
       options:
         - Genetic diversity (richness and heterozygosity)
         - Genetic differentiation (number of genetic units and genetic distance)
@@ -100,7 +100,7 @@ body:
   - type: dropdown
     id: eov-panel
     attributes:
-      label: 🔬 EOV Panel (if applicable)
+      label: "🔬 EOV Panel (if applicable)"
       options:
         - Physics
         - Biogeochemistry
@@ -109,10 +109,10 @@ body:
     validations:
       required: true
 
- - type: dropdown
-    id: ev-name
+  - type: dropdown
+    id: eov-name
     attributes:
-      label: 🏷️ EOV Variable Name (if applicable)
+      label: "🏷️ EOV Variable Name (if applicable)"
       options:
         - Sea state
         - Ocean surface stress
@@ -150,101 +150,102 @@ body:
         - Ocean colour
         - Marine debris (*pilot)	
         - Ocean sound
-
     validations:
       required: true
-      
+
   - type: input
     id: realm
     attributes:
-      label: 🌍 Realm
-      placeholder: e.g., Marine, Terrestrial, Freshwater
+      label: "🌍 Realm"
+      placeholder: "e.g., Marine, Terrestrial, Freshwater"
     validations:
       required: true
 
   - type: textarea
     id: definition
     attributes:
-      label: 🧾 Definition
-      placeholder: Define what this variable measures or represents.
+      label: "🧾 Definition"
+      placeholder: "Define what this variable measures or represents."
     validations:
       required: true
 
   - type: input
     id: step
     attributes:
-      label: 🔄 Step in identification process
-      placeholder: e.g., Pre-workshop, Breakout group, Final consensus
+      label: "🔄 Step in identification process"
+      placeholder: "e.g., Pre-workshop, Breakout group, Final consensus"
     validations:
       required: false
 
   - type: input
     id: metric
     attributes:
-      label: 📐 Metric
-      placeholder: e.g., Count, density, extent
+      label: "📐 Metric"
+      placeholder: "e.g., Count, density, extent"
     validations:
       required: false
 
   - type: input
     id: spatial-res
     attributes:
-      label: 📍 Spatial resolution unit
-      placeholder: e.g., km², grid cell, site
+      label: "📍 Spatial resolution unit"
+      placeholder: "e.g., km², grid cell, site"
     validations:
       required: false
 
   - type: input
     id: temporal-res
     attributes:
-      label: ⏱ Temporal resolution unit
-      placeholder: e.g., Seasonal, Annual, Daily
+      label: "⏱ Temporal resolution unit"
+      placeholder: "e.g., Seasonal, Annual, Daily"
     validations:
       required: false
 
   - type: input
     id: taxon
     attributes:
-      label: 🧬 Taxonomic or ecosystem focus group
-      placeholder: e.g., Krill, Mesopelagic fish, Seabirds
+      label: "🧬 Taxonomic or ecosystem focus group"
+      placeholder: "e.g., Krill, Mesopelagic fish, Seabirds"
     validations:
       required: true
 
   - type: textarea
     id: ev-relevance
     attributes:
-      label: 📈 EV relevance
-      placeholder: Why is this variable important for monitoring, ecosystem understanding, or policy?
+      label: "📈 EV relevance"
+      placeholder: "Why is this variable important for monitoring, ecosystem understanding, or policy?"
     validations:
       required: true
 
   - type: textarea
     id: data-required
     attributes:
-      label: 📊 Data required
-      placeholder: What types of data are needed to monitor this variable?
+      label: "📊 Data required"
+      placeholder: "What types of data are needed to monitor this variable?"
     validations:
       required: false
 
   - type: textarea
     id: sources
     attributes:
-      label: 🔗 Possible data sources and resources
-      placeholder: e.g., biodiversity.aq, OBIS, SCAR databases, satellite datasets, publications
+      label: "🔗 Possible data sources and resources"
+      placeholder: "e.g., biodiversity.aq, OBIS, SCAR databases, satellite datasets, publications"
     validations:
       required: false
 
   - type: textarea
     id: rationale
     attributes:
-      label: 💬 Overall rationale
-      description: Why should this variable be added or changed?
-      placeholder: Explain the gap this variable fills or the improvement it provides.
+      label: "💬 Overall rationale"
+      description: "Why should this variable be added or changed?"
+      placeholder: "Explain the gap this variable fills or the improvement it provides."
     validations:
       required: true
 
   - type: textarea
     id: notes
     attributes:
-      label: 🧩 Additional notes or context (optional)
-      placeholder: Add any other relevant information or suggestions here.
+      label: "🧩 Additional notes or context (optional)"
+      placeholder: "Add any other relevant information or suggestions here."
+    validations:
+      required: false
