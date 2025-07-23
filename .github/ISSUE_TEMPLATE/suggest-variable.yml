@@ -46,7 +46,7 @@ body:
   - type: textarea
     id: framework-rationale
     attributes:
-      label: 🌐 Framework Rationale (if both EBV & EOV selected)
+      label: 🌐 Framework Rationale (if "Both" selected)
       description: If you selected "Both", please explain how this variable aligns with each framework.
       placeholder: e.g., This variable supports species distribution (EBV) and ecosystem functioning (EOV) via spatial productivity patterns.
     validations:
@@ -106,49 +106,6 @@ body:
         - Biogeochemistry
         - Biology and Ecosystems
         - Not applicable
-    validations:
-      required: true
-
-   - type: dropdown
-    id: eov-panel
-    attributes:
-      label: 🔬 EOV Panel (if applicable)
-      options:
-        - Sea state
-        - Ocean surface stress
-        - Sea ice
-        - Sea surface height
-        - Sea surface temperature
-        - Subsurface temperature
-        - Surface currents
-        - Subsurface currents
-        - Sea surface salinity
-        - Subsurface salinity
-        - Ocean surface heat flux
-        - Ocean bottom pressure
-        - Turbulent diapycnal fluxes (*pilot)
-        - Oxygen
-        - Nutrients
-        - Inorganic carbon
-        - Transient tracers
-        - Particulate matter
-        - Nitrous oxide
-        - Stable carbon isotopes
-        - Dissolved organic carbon	Phytoplankton biomass and diversity
-        - Zooplankton biomass and diversity
-        - Fish abundance and distribution
-        - Sea turtles abundance and distribution
-        - Seabirds abundance and distribution
-        - Marine mammal abundance and distribution
-        - Coral cover and composition
-        - Seagrass cover and composition
-        - Macroalgal canopy cover and composition
-        - Mangrove cover and composition
-        - Microbe biomass and diversity (*pilot)
-        - Benthic invertebrate abundance and distribution (*pilot)
-        - Ocean colour
-        - Marine debris (*pilot)	
-        - Ocean sound
     validations:
       required: true
 
