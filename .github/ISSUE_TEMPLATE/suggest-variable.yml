@@ -150,14 +150,18 @@ body:
         - Ocean colour
         - Marine debris (*pilot)	
         - Ocean sound
+        - Not applicable
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: realm
     attributes:
       label: "🌍 Realm"
-      placeholder: "e.g., Marine, Terrestrial, Freshwater"
+      options:
+        -Marine
+        - Terrestrial
+        - Freshwater
     validations:
       required: true
 
