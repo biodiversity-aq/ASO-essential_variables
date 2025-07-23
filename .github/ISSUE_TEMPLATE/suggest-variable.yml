@@ -1,6 +1,6 @@
-name: 🧩 Suggest a New or Updated Variable
+name: 🧩 Suggest a new or updated Variable
 description: Propose a new Essential Variable or suggest improvements to an existing one.
-title: "[EV Suggestion]: "
+title: "[EV suggestion]: "
 labels: ["suggestion", "essential-variable"]
 assignees: []
 
@@ -14,7 +14,7 @@ body:
   - type: dropdown
     id: change-type
     attributes:
-      label: 🛠 Proposed Change
+      label: 🛠 Proposed change
       options:
         - Add new variable
         - Revise existing variable
@@ -26,7 +26,7 @@ body:
   - type: input
     id: variable-name
     attributes:
-      label: 📌 Variable Name
+      label: 📌 Variable name
       placeholder: e.g., Zooplankton Biomass
     validations:
       required: true
@@ -46,7 +46,7 @@ body:
   - type: textarea
     id: framework-rationale
     attributes:
-      label: 🌐 Framework Rationale (if "Both" selected)
+      label: 🌐 Framework rationale (if "Both" selected)
       description: If you selected "Both", please explain how this variable aligns with each framework.
       placeholder: e.g., This variable supports species distribution (EBV) and ecosystem functioning (EOV) via spatial productivity patterns.
     validations:
@@ -109,6 +109,50 @@ body:
     validations:
       required: true
 
+ - type: dropdown
+    id: ev-name
+    attributes:
+      label: 🏷️ EOV Variable Name (if applicable)
+      options:
+        - Sea state
+        - Ocean surface stress
+        - Sea ice
+        - Sea surface height
+        - Sea surface temperature
+        - Subsurface temperature
+        - Surface currents
+        - Subsurface currents
+        - Sea surface salinity
+        - Subsurface salinity
+        - Ocean surface heat flux
+        - Ocean bottom pressure
+        - Turbulent diapycnal fluxes (*pilot)
+        - Oxygen
+        - Nutrients
+        - Inorganic carbon
+        - Transient tracers
+        - Particulate matter
+        - Nitrous oxide
+        - Stable carbon isotopes
+        - Dissolved organic carbon	Phytoplankton biomass and diversity
+        - Zooplankton biomass and diversity
+        - Fish abundance and distribution
+        - Sea turtles abundance and distribution
+        - Seabirds abundance and distribution
+        - Marine mammal abundance and distribution
+        - Coral cover and composition
+        - Seagrass cover and composition
+        - Macroalgal canopy cover and composition
+        - Mangrove cover and composition
+        - Microbe biomass and diversity (*pilot)
+        - Benthic invertebrate abundance and distribution (*pilot)
+        - Ocean colour
+        - Marine debris (*pilot)	
+        - Ocean sound
+
+    validations:
+      required: true
+      
   - type: input
     id: realm
     attributes:
@@ -128,7 +172,7 @@ body:
   - type: input
     id: step
     attributes:
-      label: 🔄 Step in Identification Process
+      label: 🔄 Step in identification process
       placeholder: e.g., Pre-workshop, Breakout group, Final consensus
     validations:
       required: false
@@ -144,7 +188,7 @@ body:
   - type: input
     id: spatial-res
     attributes:
-      label: 📍 Spatial Resolution Unit
+      label: 📍 Spatial resolution unit
       placeholder: e.g., km², grid cell, site
     validations:
       required: false
@@ -152,7 +196,7 @@ body:
   - type: input
     id: temporal-res
     attributes:
-      label: ⏱ Temporal Resolution Unit
+      label: ⏱ Temporal resolution unit
       placeholder: e.g., Seasonal, Annual, Daily
     validations:
       required: false
@@ -160,7 +204,7 @@ body:
   - type: input
     id: taxon
     attributes:
-      label: 🧬 Taxonomic or Ecosystem Focus Group
+      label: 🧬 Taxonomic or ecosystem focus group
       placeholder: e.g., Krill, Mesopelagic fish, Seabirds
     validations:
       required: true
@@ -168,7 +212,7 @@ body:
   - type: textarea
     id: ev-relevance
     attributes:
-      label: 📈 EV Relevance
+      label: 📈 EV relevance
       placeholder: Why is this variable important for monitoring, ecosystem understanding, or policy?
     validations:
       required: true
@@ -176,7 +220,7 @@ body:
   - type: textarea
     id: data-required
     attributes:
-      label: 📊 Data Required
+      label: 📊 Data required
       placeholder: What types of data are needed to monitor this variable?
     validations:
       required: false
@@ -184,7 +228,7 @@ body:
   - type: textarea
     id: sources
     attributes:
-      label: 🔗 Possible Data Sources and Resources
+      label: 🔗 Possible data sources and resources
       placeholder: e.g., biodiversity.aq, OBIS, SCAR databases, satellite datasets, publications
     validations:
       required: false
@@ -192,7 +236,7 @@ body:
   - type: textarea
     id: rationale
     attributes:
-      label: 💬 Overall Rationale
+      label: 💬 Overall rationale
       description: Why should this variable be added or changed?
       placeholder: Explain the gap this variable fills or the improvement it provides.
     validations:
@@ -201,5 +245,5 @@ body:
   - type: textarea
     id: notes
     attributes:
-      label: 🧩 Additional Notes or Context (optional)
+      label: 🧩 Additional notes or context (optional)
       placeholder: Add any other relevant information or suggestions here.
