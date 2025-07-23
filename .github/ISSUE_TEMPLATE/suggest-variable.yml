@@ -1,10 +1,10 @@
-name: "🧩 Suggest a New or Updated Variable"
+- name: "🧩 Suggest a New or Updated Variable"
 description: "Propose a new Essential Variable or suggest improvements to an existing one."
 title: "[EV Suggestion]: "
 labels: ["suggestion", "essential-variable"]
 assignees: []
 
-body:
+- body:
   - type: markdown
     attributes:
       value: |
