@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/675431815.svg)](https://doi.org/10.5281/zenodo.22939723)
+
+
 # ASO-essential_variables
 
 This repository provides a listing and description of Essential Variables (EVs) relevant to the Southern Ocean, with a strong emphasis on biodiversity and ecosystem-related variables. The format and structure follow the approach developed by [EuropaBON](https://github.com/EuropaBON/EBV-Descriptions/wiki), with adaptations to the Southern Ocean context.
